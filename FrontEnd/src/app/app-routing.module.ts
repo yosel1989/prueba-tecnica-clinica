@@ -8,15 +8,20 @@ const routes: Routes = [{
   children: [
     {
       path: 'usuario',
-      loadChildren: () => import('pages/usuario-listado/usuario-listado.module').then(m => m.UsuarioListadoModule)
+      loadChildren: () => import('./pages/usuario-listado/usuario-listado.module').then(m => m.UsuarioListadoModule)
     },
     {
       path: 'usuario/nuevo',
-      loadChildren: () => import('pages/usuario-nuevo/usuario-nuevo.module').then(m => m.UsuarioNuevoModule)
+      loadChildren: () => import('./pages/usuario-nuevo/usuario-nuevo.module').then(m => m.UsuarioNuevoModule)
     },
     {
       path: 'usuario/editar/:id',
-      loadChildren: () => import('pages/usuario-editar/usuario-editar.module').then(m => m.UsuarioEditarModule)
+      loadChildren: () => import('./pages/usuario-editar/usuario-editar.module').then(m => m.UsuarioEditarModule)
+    },
+    {
+      path: '',
+      redirectTo: 'usuario',
+      pathMatch: "full"
     }
   ]
 }];

@@ -48,7 +48,7 @@ export class UbigeoService {
             });
             return collection;
           } else {
-            return throwError(response.error);
+            throw throwError(response.error);
           }
         }),
         catchError(err => {

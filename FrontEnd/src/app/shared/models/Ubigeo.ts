@@ -1,4 +1,4 @@
-export class Province{
+export class Ubigeo{
   public code: string;
   public regionCode: string;
   public provinceCode: string;

@@ -20,6 +20,13 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDBContext>(
         options => options.UseSqlServer(builder.Configuration.GetConnectionString("Conexion")));
 
+// cors
+builder.Services.AddCors(options => options
+                    .AddPolicy("AllowAll", p => p.SetIsOriginAllowed(isOriginAllowed: _ => true)
+                     .AllowAnyMethod()
+                     .AllowAnyHeader()
+                     .AllowCredentials()));
+
 
 var app = builder.Build();
 
@@ -29,6 +36,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 

@@ -56,7 +56,7 @@ export class UserService {
             });
             return collection;
           } else {
-            return throwError(response.error);
+            throw throwError(response.error);
           }
         }),
         catchError(err => {
@@ -76,7 +76,7 @@ export class UserService {
           if (response.status === 201) {
             return true;
           } else {
-            return throwError(response.error);
+            throw throwError(response.error);
           }
         }),
         catchError(err => {
@@ -97,7 +97,7 @@ export class UserService {
           if (response.status === 200) {
             return true;
           } else {
-            return throwError(response.error);
+            throw throwError(response.error);
           }
         }),
         catchError(err => {
@@ -117,7 +117,7 @@ export class UserService {
           if (response.status === 200) {
             return true;
           } else {
-            return throwError(response.error);
+            throw throwError(response.error);
           }
         }),
         catchError(err => {
@@ -155,7 +155,7 @@ export class UserService {
             return model;
 
           } else {
-            return throwError(response.error);
+            throw throwError(response.error);
           }
         }),
         catchError(err => {
