@@ -1,0 +1,13 @@
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Entity\bin\Debug\net6.0\Clinica.Entity.deps.json
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Entity\bin\Debug\net6.0\Clinica.Entity.dll
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Entity\bin\Debug\net6.0\Clinica.Entity.pdb
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Entity\obj\Debug\net6.0\Clinica.Entity.csproj.AssemblyReference.cache
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Entity\obj\Debug\net6.0\Clinica.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Entity\obj\Debug\net6.0\Clinica.Entity.AssemblyInfoInputs.cache
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Entity\obj\Debug\net6.0\Clinica.Entity.AssemblyInfo.cs
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Entity\obj\Debug\net6.0\Clinica.Entity.csproj.CoreCompileInputs.cache
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Entity\obj\Debug\net6.0\Clinica.Entity.sourcelink.json
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Entity\obj\Debug\net6.0\Clinica.Entity.dll
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Entity\obj\Debug\net6.0\refint\Clinica.Entity.dll
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Entity\obj\Debug\net6.0\Clinica.Entity.pdb
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Entity\obj\Debug\net6.0\ref\Clinica.Entity.dll

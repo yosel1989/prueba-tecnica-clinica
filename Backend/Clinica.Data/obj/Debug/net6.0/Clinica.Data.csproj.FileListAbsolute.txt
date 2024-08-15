@@ -1,0 +1,16 @@
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Clinica.Data\bin\Debug\net6.0\Clinica.Data.deps.json
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Clinica.Data\bin\Debug\net6.0\Clinica.Data.dll
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Clinica.Data\bin\Debug\net6.0\Clinica.Data.pdb
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Clinica.Data\bin\Debug\net6.0\Clinica.Entity.dll
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Clinica.Data\bin\Debug\net6.0\Clinica.Entity.pdb
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Clinica.Data\obj\Debug\net6.0\Clinica.Data.csproj.AssemblyReference.cache
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Clinica.Data\obj\Debug\net6.0\Clinica.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Clinica.Data\obj\Debug\net6.0\Clinica.Data.AssemblyInfoInputs.cache
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Clinica.Data\obj\Debug\net6.0\Clinica.Data.AssemblyInfo.cs
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Clinica.Data\obj\Debug\net6.0\Clinica.Data.csproj.CoreCompileInputs.cache
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Clinica.Data\obj\Debug\net6.0\Clinica.Data.sourcelink.json
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Clinica.Data\obj\Debug\net6.0\Clinica..F242D277.Up2Date
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Clinica.Data\obj\Debug\net6.0\Clinica.Data.dll
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Clinica.Data\obj\Debug\net6.0\refint\Clinica.Data.dll
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Clinica.Data\obj\Debug\net6.0\Clinica.Data.pdb
+C:\Desarrollo\prueba-tecnica-clinica\Backend\Clinica.Data\obj\Debug\net6.0\ref\Clinica.Data.dll

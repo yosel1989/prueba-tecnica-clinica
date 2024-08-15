@@ -869,6 +869,60 @@
             "rid": "win"
           }
         }
+      },
+      "Clinica.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Clinica.Domain": "1.0.0",
+          "Clinica.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Clinica.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clinica.Application.dll": {}
+        }
+      },
+      "Clinica.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Clinica.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Clinica.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clinica.Data.dll": {}
+        }
+      },
+      "Clinica.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Clinica.Data": "1.0.0",
+          "Clinica.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Clinica.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clinica.Domain.dll": {}
+        }
+      },
+      "Clinica.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.33"
+        },
+        "compile": {
+          "bin/placeholder/Clinica.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clinica.Entity.dll": {}
+        }
       }
     }
   },
@@ -2428,10 +2482,34 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Clinica.Application/1.0.0": {
+      "type": "project",
+      "path": "../Clinica.Application/Clinica.Application.csproj",
+      "msbuildProject": "../Clinica.Application/Clinica.Application.csproj"
+    },
+    "Clinica.Data/1.0.0": {
+      "type": "project",
+      "path": "../Clinica.Data/Clinica.Data.csproj",
+      "msbuildProject": "../Clinica.Data/Clinica.Data.csproj"
+    },
+    "Clinica.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Clinica.Domain/Clinica.Domain.csproj",
+      "msbuildProject": "../Clinica.Domain/Clinica.Domain.csproj"
+    },
+    "Clinica.Entity/1.0.0": {
+      "type": "project",
+      "path": "../Entity/Clinica.Entity.csproj",
+      "msbuildProject": "../Entity/Clinica.Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Clinica.Application >= 1.0.0",
+      "Clinica.Data >= 1.0.0",
+      "Clinica.Domain >= 1.0.0",
+      "Clinica.Entity >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.33",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.33",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.33",
@@ -2465,7 +2543,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Desarrollo\\prueba-tecnica-clinica\\Backend\\Clinica.Application\\Clinica.Application.csproj": {
+              "projectPath": "C:\\Desarrollo\\prueba-tecnica-clinica\\Backend\\Clinica.Application\\Clinica.Application.csproj"
+            },
+            "C:\\Desarrollo\\prueba-tecnica-clinica\\Backend\\Clinica.Data\\Clinica.Data.csproj": {
+              "projectPath": "C:\\Desarrollo\\prueba-tecnica-clinica\\Backend\\Clinica.Data\\Clinica.Data.csproj"
+            },
+            "C:\\Desarrollo\\prueba-tecnica-clinica\\Backend\\Clinica.Domain\\Clinica.Domain.csproj": {
+              "projectPath": "C:\\Desarrollo\\prueba-tecnica-clinica\\Backend\\Clinica.Domain\\Clinica.Domain.csproj"
+            },
+            "C:\\Desarrollo\\prueba-tecnica-clinica\\Backend\\Entity\\Clinica.Entity.csproj": {
+              "projectPath": "C:\\Desarrollo\\prueba-tecnica-clinica\\Backend\\Entity\\Clinica.Entity.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

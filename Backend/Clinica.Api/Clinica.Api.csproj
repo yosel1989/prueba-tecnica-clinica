@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -17,8 +17,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Contexts\" />
+	  <ProjectReference Include="..\Clinica.Application\Clinica.Application.csproj" />
+	  <ProjectReference Include="..\Clinica.Domain\Clinica.Domain.csproj" />
+	  <ProjectReference Include="..\Entity\Clinica.Entity.csproj" />
+	  <ProjectReference Include="..\Clinica.Data\Clinica.Data.csproj" />
   </ItemGroup>
 
 </Project>

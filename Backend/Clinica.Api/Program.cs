@@ -1,11 +1,25 @@
+
+using Clinica.Api.Transients;
+using Clinica.Entity.Contexts;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
+//transient
+Transient.AddConfigurations(builder.Services);
+
+// Add services to the container.
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+// context
+builder.Services.AddDbContext<ApplicationDBContext>(
+        options => options.UseSqlServer(builder.Configuration.GetConnectionString("Conexion")));
+
 
 var app = builder.Build();
 
