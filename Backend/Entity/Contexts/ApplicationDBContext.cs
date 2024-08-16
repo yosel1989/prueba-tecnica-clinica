@@ -1,5 +1,6 @@
 ﻿using Clinica.Entity.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection.Metadata;
 
 namespace Clinica.Entity.Contexts
 {
@@ -14,6 +15,15 @@ namespace Clinica.Entity.Contexts
         public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options)
         : base(options)
         {
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+
+            modelBuilder.Entity<User>().HasKey(x => x.DocumentNumber);
+            modelBuilder.Entity<Ubigeo>().HasKey(x => x.UbigeoCode);
+            modelBuilder.Entity<Province>().HasKey(x => x.ProvinceCode);
+            modelBuilder.Entity<Region>().HasKey(x => x.RegionCode);
         }
 
     }

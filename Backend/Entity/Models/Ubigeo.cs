@@ -11,6 +11,8 @@ namespace Clinica.Entity.Models
         public string ProvinceCode { get; set; }
         public string RegionCode { get; set; }
         public string UbigeoDescription { get; set; }
-        
+
+
+
     }
 }
