@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { UsuarioListadoRoutingModule } from './usuario-listado-routing.module';
 import {UsuarioListadoComponent} from "./usuario-listado.component";
+import {TblListadoUsuarioModule} from "../../components/tbl-listado-usuario/tbl-listado-usuario.module";
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import {UsuarioListadoComponent} from "./usuario-listado.component";
   ],
   imports: [
     CommonModule,
-    UsuarioListadoRoutingModule
+    UsuarioListadoRoutingModule,
+    TblListadoUsuarioModule
   ],
   providers:[],
   exports: [UsuarioListadoComponent],

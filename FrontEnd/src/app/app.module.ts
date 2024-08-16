@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {HttpClientModule} from "@angular/common/http";
 import {HotToastModule} from "@ngneat/hot-toast";
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {HotToastModule} from "@ngneat/hot-toast";
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    HotToastModule.forRoot()
+    HotToastModule.forRoot(),
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

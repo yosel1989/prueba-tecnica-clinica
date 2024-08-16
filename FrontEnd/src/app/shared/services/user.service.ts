@@ -47,6 +47,8 @@ export class UserService {
               model.fathersLastName = ele.fathersLastName;
               model.mothersLastName = ele.mothersLastName;
               model.address = ele.address;
+              model.regionCode = ele.regionCode;
+              model.provinceCode = ele.provinceCode;
               model.ubigeoCode = ele.ubigeoCode;
               model.phone = ele.phone;
               model.email = ele.email;
@@ -91,7 +93,7 @@ export class UserService {
     model: User
   ): Observable<boolean> {
 
-    return this.http.put<any>(this.url + `/user`, model, {headers: this.headers})
+    return this.http.put<any>(this.url + `/user/${model.documentNumber}`, model, {headers: this.headers})
       .pipe(
         map((response:any) => {
           if (response.status === 200) {
@@ -146,6 +148,8 @@ export class UserService {
             model.fathersLastName = ele.fathersLastName;
             model.mothersLastName = ele.mothersLastName;
             model.address = ele.address;
+            model.regionCode = ele.regionCode;
+            model.provinceCode = ele.provinceCode;
             model.ubigeoCode = ele.ubigeoCode;
             model.phone = ele.phone;
             model.email = ele.email;

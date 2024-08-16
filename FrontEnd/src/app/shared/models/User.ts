@@ -6,6 +6,8 @@ export class User{
   public  fathersLastName: string;
   public  mothersLastName: string;
   public  address: string;
+  public  regionCode: string;
+  public  provinceCode: string;
   public  ubigeoCode: string;
   public  phone: string;
   public  email: string;

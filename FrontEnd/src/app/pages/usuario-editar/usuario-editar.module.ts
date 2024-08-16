@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 
 import { UsuarioEditarRoutingModule } from './usuario-editar-routing.module';
 import {UsuarioEditarComponent} from "./usuario-editar.component";
+import {ReactiveFormsModule} from "@angular/forms";
 
 
 @NgModule({
   declarations: [UsuarioEditarComponent],
   imports: [
     CommonModule,
-    UsuarioEditarRoutingModule
+    UsuarioEditarRoutingModule,
+    ReactiveFormsModule
   ],
   exports:[UsuarioEditarComponent],
   providers: [],
