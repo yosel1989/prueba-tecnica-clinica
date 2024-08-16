@@ -14,7 +14,13 @@ const routes: Routes = [
   {
     path: 'usuario/editar/:id',
     loadChildren: () => import('./pages/usuario-editar/usuario-editar.module').then(m => m.UsuarioEditarModule)
-  }];
+  },
+  {
+    path: '**',
+    redirectTo: 'usuario'
+  }
+
+  ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
